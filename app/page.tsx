@@ -64,25 +64,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trusted By Section */}
-      <section className="bg-white border-y border-slate-100 py-12">
-        <div className="max-w-6xl mx-auto px-6">
-          <p className="text-center text-sm font-semibold text-slate-400 uppercase tracking-widest mb-8">
-            Trusted by innovative startups
-          </p>
-          <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-6">
-            {["TechFlow", "InnovateLabs", "ScaleUp", "GrowthBox", "LaunchPad"].map((name, i) => (
-              <div
-                key={name}
-                className="text-xl font-display font-bold text-slate-300 hover:text-slate-400 transition-colors cursor-default"
-              >
-                {name}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section id="services" className="py-20 lg:py-28 bg-slate-50">
         <div className="max-w-6xl mx-auto px-6">
