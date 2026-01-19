@@ -128,58 +128,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Us Section */}
-      <section id="why-us" className="py-20 lg:py-28 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <span className="inline-block text-xs font-semibold tracking-widest text-teal-600 uppercase mb-4">
-                Why Choose Us
-              </span>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                We've been in your shoes
-              </h2>
-              <p className="text-lg text-slate-600 mb-8">
-                Founded by entrepreneurs who've built and scaled multiple startups, we understand the challenges you face. Our hands-on approach means we're partners in your success, not just consultants.
-              </p>
-
-              <div className="space-y-6">
-                {[
-                  { number: "50+", label: "Startups Helped" },
-                  { number: "$100M+", label: "Funding Raised" },
-                  { number: "95%", label: "Client Satisfaction" },
-                ].map((stat) => (
-                  <div key={stat.label} className="flex items-center gap-4">
-                    <div className="text-3xl font-display font-bold text-teal-600">
-                      {stat.number}
-                    </div>
-                    <div className="text-slate-600">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { icon: "🎯", title: "Focused Approach", desc: "Tailored strategies for your unique challenges" },
-                { icon: "⚡", title: "Fast Results", desc: "See measurable progress within weeks" },
-                { icon: "🤝", title: "True Partnership", desc: "We're invested in your long-term success" },
-                { icon: "📈", title: "Proven Methods", desc: "Battle-tested frameworks that work" },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors"
-                >
-                  <div className="text-3xl mb-3">{item.icon}</div>
-                  <h3 className="font-display font-bold text-slate-900 mb-1">{item.title}</h3>
-                  <p className="text-sm text-slate-600">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 lg:py-28 bg-gradient-to-br from-teal-600 to-teal-700 relative overflow-hidden">
         {/* Decorative elements */}
