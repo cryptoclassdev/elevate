@@ -40,9 +40,6 @@ export default function Header() {
           <Link href="/#services" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
             Services
           </Link>
-          <Link href="/#why-us" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
-            Why Us
-          </Link>
           <Link href="/contact" className={linkClass("/contact")}>
             Contact
           </Link>
