@@ -24,7 +24,7 @@ A minimal, professional one-page website for "Elevate & Prosper" - a company hel
 
 ### Contact Section (footer area)
 - "Contact Us" heading
-- Email only: `hello@elevateandprosper.com`
+- Email only: `hello@elevateandprosper.link`
 
 ## Visual Design
 
